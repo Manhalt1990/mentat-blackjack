@@ -15,6 +15,7 @@ public class Methods {
 		ArrayList<Cards> dhand = new ArrayList<Cards>(); 
 		int ptotal = 0;
 		int dtotal = 0;
+		int p2total = 0;
 		
 		ArrayList<Dcomment> dlrcmt = new ArrayList<Dcomment>();
 		dlrcmt.add(Dcomment.comment1);
