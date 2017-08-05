@@ -9,17 +9,7 @@ public class Methods {
 
 
 		ArrayList<Cards> deck = new ArrayList<Cards>(); // shuffle test
-		deck.add(Cards.card1);
-		deck.add(Cards.card2);
-		deck.add(Cards.card3);
-		deck.add(Cards.card4);
-		deck.add(Cards.card5);
-		deck.add(Cards.card6);
-		deck.add(Cards.card7);
-		deck.add(Cards.card8);
-		deck.add(Cards.card9);
-		deck.add(Cards.card10);
-		deck.add(Cards.card11);
+		addCardsToDeck(deck);
 		
 		ArrayList<Cards> phand = new ArrayList<Cards>();
 		ArrayList<Cards> dhand = new ArrayList<Cards>(); 
@@ -181,6 +171,20 @@ public class Methods {
 		System.out.print("Hand after hit: ");
 		Cards.show(phand);
 */
+	}
+	
+	private static void addCardsToDeck(ArrayList<Cards> deck) {
+		deck.add(Cards.card1);
+		deck.add(Cards.card2);
+		deck.add(Cards.card3);
+		deck.add(Cards.card4);
+		deck.add(Cards.card5);
+		deck.add(Cards.card6);
+		deck.add(Cards.card7);
+		deck.add(Cards.card8);
+		deck.add(Cards.card9);
+		deck.add(Cards.card10);
+		deck.add(Cards.card11);
 	}
 
 	
